@@ -14,3 +14,13 @@ To choose a certain element in a list 'questions':
 
 If you want to ewstrict a class from being used from outside the file, add _ at the begginning of its name.
 
+Positional - внутри () - foo(a, b) -> foo(1, 2) - хорошо использовать, если это обязательные параметры
+Named - внутри {} - Question({this.a}) -> foo(a: 4)
+Named may be required
+
+Класс Question... -> создаю класс
+	(внутри класса) Question(параметры); -> declare constuctor (создать или объявить конструктор и объявить параметры)
+(вне класса) Question (значения параметров) -> создаю инстанс класса (В словаре Рамиля = создать Question)
+
+38
+
