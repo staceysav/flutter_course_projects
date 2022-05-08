@@ -6,13 +6,13 @@ to create a list: var questions = ['first text', 'second text']
 onPressed: function - не использовать (), т.к. мы не хотим чтобы исполнялась функция когда флаттер дойдет до строки, а хотим чтобы исполнялось когда пользователь нажмет на кнопку
 Anonymous functions are good if the function is used only once. Examples of anonymous functions:
 	onPressed: () => print('hjdhfd')
-	and there's another way.
+	(() {})
 
 To choose a certain element in a list 'questions':
 	questions.elementOf(0)
 	questions[0]
 
-If you want to ewstrict a class from being used from outside the file, add _ at the begginning of its name.
+If you want to restrict a class from being used from outside the file, add _ at the begginning of its name.
 
 Positional - внутри () - foo(a, b) -> foo(1, 2) - хорошо использовать, если это обязательные параметры
 Named - внутри {} - Question({this.a}) -> foo(a: 4)
@@ -23,4 +23,11 @@ Named may be required
 (вне класса) Question (значения параметров) -> создаю инстанс класса (В словаре Рамиля = создать Question)
 
 38
+
+To create a map:
+	{}
+	Map()
+
+45
+
 
