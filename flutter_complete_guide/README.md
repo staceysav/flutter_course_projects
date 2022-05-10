@@ -33,3 +33,9 @@ To create a map:
 final - doesn't change when the program runs
 const - run-time value
 
+RaisedButton -> ElevatedButton (it auto picks up the style of the theme)
+A FlatButton -> TextButton
+OutlineButton -> 
+
+
+
