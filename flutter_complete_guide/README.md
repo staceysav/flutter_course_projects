@@ -30,4 +30,6 @@ To create a map:
 
 45
 
+final - doesn't change when the program runs
+const - run-time value
 
